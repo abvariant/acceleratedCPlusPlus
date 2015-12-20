@@ -1,0 +1,41 @@
+0-0)
+Done
+
+
+0-1)
+Not a lot, if that's all that's on one line!
+
+
+0-2)
+Done!
+
+
+0-3)
+Done!
+
+
+0-4)
+Done!
+
+
+0-5)
+Not valid as main appears to require the curly braces.
+
+
+0-6)
+This is actually valid! Though it doesn't return. Odd.
+Seems it needs those curley braces though.
+
+0-7)
+This won't work because you can't nest block comments.
+
+0-8)
+This will work, because anything after the // is ignored.
+
+0-9)
+"int main{}" it seems!
+
+0-10)
+Seems you can't put returns everywhere!
+But you can if you add the "\" sign to follow onto the 
+next line. This doesn't work with #includes though.
