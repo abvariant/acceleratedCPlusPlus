@@ -39,5 +39,8 @@ Thumbs.db
 
 # CMake Files #
 ###############
-*/CMakeFiles
+CMakeFiles
 Makefile
+*.cmake
+install_manifest.txt
+
