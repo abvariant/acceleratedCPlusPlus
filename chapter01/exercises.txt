@@ -1,1 +1,9 @@
 01-00)
+Done
+
+01-01)
+This is valid. Const strings are being constructed in a standard manner.
+
+01-02)
+This is invalid. It seems to be unable to concatenate two const chars 
+(both "Hello" and ", world").
