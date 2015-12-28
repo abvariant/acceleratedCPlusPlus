@@ -1,5 +1,4 @@
 // Ask for a person's name, and greet the person.
-
 #include <iostream>
 #include <string>
 
@@ -12,7 +11,23 @@ int main()
 	std::string name;	// define name
 	std::cin >> name;	// read into name
 
-	// Write greeting
-	std::cout << "Hello, " << name << "!" << std::endl;
+	// Build greeting that we intend to write
+	const std::string greeting = "Hello, " + name + "!";
+	
+	// Build the second and fourth lines of the output
+	const std::string spaces(greeting.size(), ' ');
+	const std::string second = "* " + spaces + " *";
+
+	// Build the first and fifth lines of the output
+	const std::string first(second.size(), '*');
+
+	// Write it all
+	std::cout << std::endl;
+	std::cout << first << std::endl;
+	std::cout << second << std::endl;
+	std::cout << "* " << greeting << " *" << std::endl;
+	std::cout << second << std::endl;
+	std::cout << first << std::endl;
+
 	return 0;
 }	
