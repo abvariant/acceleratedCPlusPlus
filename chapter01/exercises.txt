@@ -7,3 +7,21 @@ This is valid. Const strings are being constructed in a standard manner.
 01-02)
 This is invalid. It seems to be unable to concatenate two const chars 
 (both "Hello" and ", world").
+
+01-03)
+This is valid. You can redeclare a variable with the same name, so long as 
+they're in different scopes, like this example.
+
+01-04)
+That's interesting. This works too. Seems nested scopes also allow for 
+repeated variable names...
+
+01-05)
+This doesn't compile...
+New-lining all scoping braces, and tabbing reveals structure a bit better.
+Re-jigging the scope solves the problem.
+
+01-06)
+Thought it would display both names, them prompt for another entry.
+Seems it treats the initial two names as two different inputs, showing
+one, and then the next.
