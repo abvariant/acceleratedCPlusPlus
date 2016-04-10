@@ -44,3 +44,9 @@ Makefile
 *.cmake
 install_manifest.txt
 
+
+# Idea for ignoring executables. Ignore all except files I want? 
+# ie:
+# *
+# !*.c
+# !Makefile
