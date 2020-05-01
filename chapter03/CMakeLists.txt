@@ -1,11 +1,1 @@
-
-add_subdirectory(02-00)
-add_subdirectory(02-01)
-add_subdirectory(02-02)
-add_subdirectory(02-03)
-add_subdirectory(02-04)
-add_subdirectory(02-05)
-add_subdirectory(02-06)
-add_subdirectory(02-07)
-add_subdirectory(02-08)
-add_subdirectory(02-09)
+add_subdirectory(03-00)
